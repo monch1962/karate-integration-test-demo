@@ -1,11 +1,53 @@
 {
   "meta": {
-    "timeExported": "20219-02-28T15:49:28+1100",
+    "timeExported": "2021-02-28T15:49:28+1100",
     "schemaVersion": "v5",
     "hoverflyVersion": "v1.32"
   },
   "data": {
-    "pairs": [],
+    "pairs": [
+		{
+		    "request": {
+				"path": [
+					{
+						"matcher": "glob",
+						"value": "*"
+					}
+				],
+				"method": [
+					{
+						"matcher": "glob",
+						"value": "*"
+					}
+				],
+				"destination": [
+					{
+    					"matcher": "glob",
+						"value": "*"
+					}
+				],
+				"scheme": [
+					{
+						"matcher": "glob",
+						"value": "http*"
+					}
+				],
+				"body": [
+					{
+						"matcher": "glob",
+						"value": "abc"
+					}
+				]
+			},
+			"response": {
+				"status": 200,
+				"body": "CHANGE ME!",
+				"encodedBody": false,
+				"headers": {},
+				"templated": false
+            }		
+        }
+	],
     "globalActions": {
       "delays": []
     }

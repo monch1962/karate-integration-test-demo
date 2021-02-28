@@ -13,22 +13,15 @@ pool:
 steps:
 - script: |
     # Get the hoverfly stub engine
-    #wget https://github.com/SpectoLabs/hoverfly/releases/download/v1.3.2/#hoverfly_bundle_linux_amd64.zip -O hoverfly.zip
-    #unzip hoverfly.zip
-
     docker run --name stub --rm -d -p 8888:8888 -p 8500:8500 spectolabs/hoverfly:latest
-    curl http://localhost:8888/api/v2/simulation --upload-file tests/integration/stubs/empty.stub.json
 
-    # Start hoverfly running in simulate mode, and read in an empty stub config
-    #./hoverctl start
-    #./hoverctl mode simulate
-    #./hoverctl import tests/integration/stubs/empty.stub.json
+    # Start hoverfly running in simulate mode, and read in an empty stub config    
+    curl http://localhost:8888/api/v2/simulation --upload-file tests/integration/stubs/empty.stub.json
 
     # Now hit a non-existent API in the stub
     curl -H "Content-Type application/json" -X POST -d '{"mode":"simulate"}' http://localhost:8888/api/state
 
     # Stop Hoverfly
-    #./hoverctl stop
     docker kill stub
   displayName: 'Run tests against an empty stub'
 
@@ -69,7 +62,8 @@ steps:
     # Now run some real tests
     #docker pull gcr.io/work-test-242205/karate-docker
     mkdir -p results
-    docker run gcr.io/work-test-242205/karate-docker -v "$(pwd)/integration/custOnboarding/a15-customer-profile-v1:/features" -v "$(pwd)/results:/results -v $(pwd)/karate-config:/config" -e HTTP_PROXY=http://localhost:18500
+    ls -l $(pwd)/tests/integration/custOnboarding/a15-customer-profile-v1
+    docker run -v "$(pwd)/tests/integration/custOnboarding/a15-customer-profile-v1:/features" -v "$(pwd)/results:/results" -v "$(pwd)/karate-config:/config" -e HTTP_PROXY=http://localhost:18500 -e CLASSPATH=tests/integration/custOnboarding gcr.io/work-test-242205/karate-docker 
 
     # Now dump the journals of both stubs (stub2 should be the interesting one...)
     echo "Journal from stub1"

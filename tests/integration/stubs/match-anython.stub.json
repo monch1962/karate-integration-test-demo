@@ -1,0 +1,56 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"method": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "http*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "",
+					"encodedBody": false,
+					"headers": {},
+					"templated": false
+				}
+			}
+		],
+		"globalActions": {
+			"delays": [],
+			"delaysLogNormal": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v5.1",
+		"hoverflyVersion": "v1.3.0",
+		"timeExported": "2020-08-30T22:01:40+10:00"
+	}
+}
