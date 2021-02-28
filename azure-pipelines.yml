@@ -11,14 +11,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
-
 - script: |
     # Get the hoverfly stub engine
     wget https://github.com/SpectoLabs/hoverfly/releases/download/v1.3.2/hoverfly_bundle_linux_amd64.zip -O hoverfly.zip
@@ -32,22 +24,13 @@ steps:
     # Now hit a non-existent API in the stub
     curl -H "Content-Type application/json" -X POST -d '{"mode":"simulate"}' http://localhost:8888/api/state
 
-    # Now start the app running, and capture the PID so we can kill it later
-    # Note that we're setting HTTP_PROXY to point to the Hoverfly stub, so that all tests go via Hoverfly
-    #HTTP_PROXY=http://localhost:8500 node helloworld.js &
-    #APP_PID=$!
-
-
-
     # Stop Hoverfly
     ./hoverctl stop
   displayName: 'Run tests against an empty stub'
-  
-  script: |
-    # First Hoverfly instance
+
+- script: |
+    # First Hoverfly instance in webserver mode
     docker run --name stub1 --rm -d -p 8888:8888 -p 8500:8500 spectolabs/hoverfly:latest -webserver
-    # Set this stub into webserver mode
-    #curl http://localhost:8888/api/v2/hoverfly/mode --upload-file tests/integration/stubs/webserver-mode.json
     # Import a 'match-anything' stub into this instance
     curl http://localhost:8888/api/v2/simulation --upload-file tests/integration/stubs/match-anything.stub.json
     # Check that the match-anything config was loaded
@@ -87,12 +70,8 @@ steps:
     cat stub2.json
     echo
 
-    #echo "Export config from stub1"
-    #curl http://localhost:8888/api/records
-    #echo "Export config from stub2"
-    #curl http://localhost:18888/api/records
-    #echo
-
     docker kill stub1
     docker kill stub2
+  
   displayName: 'Run tests against an empty stub'
+  
