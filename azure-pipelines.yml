@@ -73,6 +73,10 @@ steps:
     cat stub2.json | jq .
     echo
 
+    # Now run some real tests
+    docker pull gcr.io/work-test-242205/karate-docker
+    docker run gcr.io/work-test-242205/karate-docker -v $(pwd)/integration/custOnboarding/a15-customer-profile-v1:/feature
+
     docker kill stub1
     docker kill stub2
   
