@@ -62,6 +62,7 @@ steps:
     # Now run some real tests
     #docker pull gcr.io/work-test-242205/karate-docker
     mkdir -p results
+    ls -l
     docker run gcr.io/work-test-242205/karate-docker -v "$(pwd)/tests/integration/custOnboarding/a15-customer-profile-v1:/features" -v "$(pwd)/results:/results -v $(pwd)/karate-config:/config" -e HTTP_PROXY=http://localhost:18500
 
     # Now dump the journals of both stubs (stub2 should be the interesting one...)
