@@ -41,12 +41,13 @@
 			},
 			"response": {
 				"status": 200,
-				"body": "",
+				"body": "CHANGE ME!",
 				"encodedBody": false,
 				"headers": {},
 				"templated": false
-			}			}
-		],
+            }		
+        }
+	],
     "globalActions": {
       "delays": []
     }
