@@ -28,6 +28,7 @@ steps:
     ./hoverctl start --verbose
     ./hoverctl mode simulate --matching-strategy=strongest --verbose
     ./hoverctl import tests/integration/stubs/empty.stub.json --verbose
+    ./hoverctl logs
 
     # Now hit a non-existent API in the stub
     HTTP_PROXY=http://localhost:8500 curl -H "Content-Type application/json" -X POST -d '{"mode":"simulate"}' http://localhost:8888/api/state
