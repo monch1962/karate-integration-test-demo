@@ -1,4 +1,4 @@
-function() {
+function fn() {
     var config = {
         baseUrl: 'http://localhost:8888',
         proxy: {
@@ -8,6 +8,7 @@ function() {
     karate.configure('proxy', config.proxy);
     karate.configure('readTimeout', 10000);
     karate.configure('connectTimeout', 10001);
-    var vlassPath = java.lang.System.getenv('CLASSPATH');
+    //var classPath = java.lang.System.getenv('CLASSPATH');
     return config;
 }
+
