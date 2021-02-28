@@ -26,7 +26,7 @@ steps:
 
     # Start hoverfly running in simulate mode, and read in an empty stub config
     ./hoverctl start
-    ./hoverctl mode simulate
+    ./hoverctl mode simulate --matching-strategy=strongest
     ./hoverctl import tests/integration/stubs/empty.stub.json
 
     # Now hit a non-existent API in the stub
