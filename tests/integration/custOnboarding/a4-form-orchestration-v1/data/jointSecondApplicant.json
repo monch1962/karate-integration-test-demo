@@ -1,0 +1,126 @@
+{
+  "instance": "{{requestKey}}",
+  "formBody": {
+    "application": {
+      "hasJointApplicant": true,
+      "referrerCode": {
+        "hasReferrerCode": false
+      },
+      "offerCode": {
+        "hasOfferCode": false
+      },
+      "jointApplicant": {
+        "fullName": "Min Lee",
+        "mobileNumber": "04082596592"
+      },
+      "jointOnboarding": {
+        "isInvitationAccepted": true,
+        "primaryApplicantDateofBirth": {}
+      },
+      "selectedProduct": {
+        "virtualProductId": "VMA.BONUS.SAVER",
+        "virtualProductName": "Bonus Saver Account",
+        "title": "Long term savings",
+        "description": "",
+        "learnMore": "https://virginmoney.com.au/credit-card/compare-our-credit-cards",
+        "tcLink": "https://TBC",
+        "tcVersion": "1.1.0",
+        "products": [
+          {
+            "baseInterestRate": 0.5,
+            "bonusInterestRate": 0.5,
+            "productTitle": "One Saver account",
+            "productIcon": "https://virginmoney.com.au/content/dam/virginmoney/Mobile-App/DeNovo/Saver_2.png",
+            "productId": "VMA.BONUS.SAVER",
+            "description": "Keep that cash savely tucked away and watch it grow.",
+            "learnMore": ""
+          }
+        ]
+      },
+      "applicant": {
+        "knownByOtherName": false,
+        "applicantType": "Joint",
+        "mobileNumber": "0412345678",
+        "otpValue": "112233",
+        "emailAddress": "danlee123@gmail.com",
+        "gender": "M",
+        "firstName": "Dan",
+        "lastName": "Lee",
+        "aliasName": {},
+        "occupationId": "Consultant",
+        "dob": {
+          "day": "01",
+          "month": "01",
+          "year": "1987",
+          "dateOfBirth": "1987-01-01"
+        },
+        "residentialAddress": {
+          "isManualInput": false,
+          "fullAddress": "700 CHAPEL ST SOUTH YARRA 3141 VIC Australia",
+          "address": {
+            "subdwelling": "U 309",
+            "streetNumber": "700",
+            "streetName": "CHAPEL",
+            "streetType": "ST",
+            "suburb": "SOUTH YARRA",
+            "state": "VIC",
+            "postCode": "3141",
+            "country": "AUSTRALIA"
+          }
+        },
+        "previousAddress": {
+          "isManualInput": false,
+          "address": {}
+        },
+        "postalAddress": {
+          "isSameAsResidential": true,
+          "isManualInput": false,
+          "fullAddress": "700 CHAPEL ST SOUTH YARRA 3141 VIC Australia",
+          "address": {
+            "subdwelling": "U 309",
+            "streetNumber": "700",
+            "streetName": "CHAPEL",
+            "streetType": "ST",
+            "suburb": "SOUTH YARRA",
+            "state": "VIC",
+            "postCode": "3141",
+            "country": "AUSTRALIA"
+          }
+        },
+        "citizenshipResidency": {
+          "hasTaxObligationsOnlyInAustralia": false,
+          "countryOfTaxObligations": []
+        },
+        "greenIdVerify": {
+          "regodvsState": "VIC",
+          "regodvsNumber": "11111111",
+          "regodvsFirstName": "Dan",
+          "regodvsLastName": "Lee",
+          "passportdvsNumber": "A1111111",
+          "passportdvsFirstName": "Dan",
+          "passportdvsLastName": "Lee",
+          "passportdvsGender": "Male",
+          "verifyUserId": "MgriH8BB"
+        },
+        "manualCheck": {},
+        "declaration": {}
+      }
+    },
+    "journeyData": {
+      "currentPage": "jointInviteProduct",
+      "currentPageAction": "cifLookup"
+    },
+    "staffAssistUIData": {},
+    "sfmData": {
+      "systemProfile": {
+        "revisionNumber": 0,
+        "trackingCode": "{{trackingCode}}"
+      },
+      "narrativeMeta": {
+        "disableSubmit": false,
+        "disableSave": false,
+        "disableBack": false
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "instance": "123",
+  "formBody": {
+    "application": {
+      "hasJointApplicant": false,
+      "referrerCode": {
+        "hasReferrerCode": false
+      },
+      "offerCode": {
+        "hasOfferCode": false
+      },
+      "jointApplicant": {},
+      "jointOnboarding": {
+        "isInvitationAccepted": false,
+        "primaryApplicantDateofBirth": {}
+      },
+      "selectedProduct": {
+        "virtualProductId": "BUNDLE",
+        "virtualProductName": "Bundle Product",
+        "title": "Spend & also save",
+        "description": "Cover all your banking needs in this one package & get rewarded with every purchase.",
+        "learnMore": "https://virginmoney.com.au/credit-card/compare-our-credit-cards",
+        "tcLink": "https://TBC",
+        "tcVersion": "1.1.0",
+        "products": [
+          {
+            "productId": "VMA.TRANSAC.ACCOUNT",
+            "description": "Keep day-to-day transactions easy.",
+            "productTitle": "Red Spender account",
+            "baseInterestRate": "0.0",
+            "bonusInterestRate": "0.0",
+            "productIcon": "https://virginmoney.com.au/content/dam/virginmoney/Mobile-App/DeNovo/Transaction.png"
+          },
+          {
+            "productId": "VMA.BUNDLE.SAVER",
+            "description": "Manage your money with flexibility.",
+            "productTitle": "Red Saver account",
+            "baseInterestRate": "0.5",
+            "bonusInterestRate": "1.8",
+            "productIcon": "https://virginmoney.com.au/content/dam/virginmoney/Mobile-App/DeNovo/Saver_1.png"
+          }
+        ]
+      },
+      "applicant": {
+        "knownByOtherName": false,
+        "applicantType": "Primary",
+        "mobileNumber": "0400000000",
+        "otpValue": "111111",
+        "emailAddress": "danlee@gmail.com",
+        "gender": "M",
+        "firstName": "Dan",
+        "middleName": "TWOPPPP",
+        "lastName": "Lee",
+        "aliasName": {},
+        "occupationId": "Farmers and Farm Managers nfd",
+        "dob": {
+          "day": "12",
+          "month": "10",
+          "year": "1999",
+          "dateOfBirth": "1999-10-12"
+        },
+        "residentialAddress": {
+          "isManualInput": false,
+          "fullAddress": "700 CHAPEL ST SOUTH YARRA 3141 VIC Australia",
+          "address": {
+            "subdwelling": "U 309",
+            "streetNumber": "700",
+            "streetName": "CHAPEL",
+            "streetType": "ST",
+            "suburb": "SOUTH YARRA",
+            "state": "VIC",
+            "postCode": "3141",
+            "country": "AU"
+          }
+        },
+        "previousAddress": {
+          "isManualInput": false,
+          "address": {}
+        },
+        "postalAddress": {
+          "isSameAsResidential": true,
+          "isManualInput": false,
+          "fullAddress": "700 CHAPEL ST SOUTH YARRA 3141 VIC Australia",
+          "address": {
+            "subdwelling": "U 309",
+            "streetNumber": "700",
+            "streetName": "CHAPEL",
+            "streetType": "ST",
+            "suburb": "SOUTH YARRA",
+            "state": "VIC",
+            "postCode": "3141",
+            "country": "AU"
+          }
+        },
+        "citizenshipResidency": {
+          "hasTaxObligationsOnlyInAustralia": false,
+          "countryOfTaxObligations": []
+        },
+        "greenIdVerify": {
+          "regodvsState": "VIC",
+          "regodvsNumber": "11111111",
+          "regodvsFirstName": "Dan",
+          "regodvsMiddleNames": "TWOPPPP",
+          "regodvsLastName": "Lee",
+          "passportdvsNumber": "A1111111",
+          "passportdvsFirstName": "Dan",
+          "passportdvsLastName": "Lee",
+          "passportdvsGender": "Male",
+          "medicaredvsNumber": "2111111111",
+          "medicaredvsReferenceNumber": "1",
+          "medicaredvsCardColour": "Y",
+          "medicaredvsNameOnCard": "Dan M Lee",
+          "medicaredvsNameLine2": "Dan",
+          "medicaredvsNameLine3": "TWOPPPP",
+          "medicaredvsNameLine4": "Lee",
+          "medicaredvsExpiryMonth": "7",
+          "medicaredvsExpiryYear": "2023",
+          "medicaredvsExpiryDate": "2023-07-01",
+          "birthdvsFirstName": "Dan",
+          "birthdvsMiddleNames": "TWOPP",
+          "birthdvsLastName": "Lee",
+          "birthdvsRegistrationNumber": "11111111",
+          "birthdvsRegistrationState": "NSW",
+          "birthdvsRegistrationDate": "1999-10-12",
+          "birthdvsRegistrationYear": "1999",
+          "birthdvsDateOfPrint": "1999-10-12",
+          "birthdvsCertificateNumber": "123",
+          "citizenshipdvsStockNumber": "11111111",
+          "citizenshipdvsAcquisitionDate": "1987-01-01",
+          "citizenshipdvsFirstName": "Dan",
+          "citizenshipdvsMiddleNames": "TWOPPPP",
+          "citizenshipdvsLastName": "Lee"
+        },
+        "manualCheck": {},
+        "declaration": {}
+      }
+    },
+    "journeyData": {
+      "currentPage": "confirm",
+      "currentPageAction": "dlCheck"
+    },
+    "staffAssistUIData": {},
+    "sfmData": {
+      "systemProfile": {
+        "revisionNumber": 0,
+        "trackingCode": "55L5PNB"
+      },
+      "narrativeMeta": {
+        "disableSubmit": false,
+        "disableSave": false,
+        "disableBack": false
+      }
+    }
+  }
+}

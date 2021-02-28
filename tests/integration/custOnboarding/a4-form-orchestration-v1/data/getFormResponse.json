@@ -1,0 +1,68 @@
+
+  {
+    "requestKey": "#present",
+    "formStatus": "Opened",
+    "formBody":
+      {"application": {
+      "hasJointApplicant": "#boolean",
+      "referrerCode": {
+        "hasReferrerCode": "#boolean"
+      },
+      "offerCode": {
+        "hasOfferCode": "#boolean"
+      },
+      "jointApplicant": {},
+      "jointOnboarding": {
+        "isInvitationAccepted": "#boolean",
+        "primaryApplicantDateofBirth": {}
+      },
+      "selectedProduct": {
+        "products": [
+          {}
+        ]
+      },
+      "applicant": {
+        "knownByOtherName": "#boolean",
+        "applicantType": "#string",
+        "aliasName": {},
+        "dob": {},
+        "residentialAddress": {
+          "isManualInput": "#boolean",
+          "address": {}
+        },
+        "previousAddress": {
+          "isManualInput": "#boolean",
+          "address": {}
+        },
+        "postalAddress": {
+          "isManualInput": "#boolean",
+          "address": {}
+        },
+        "citizenshipResidency": {
+          "hasTaxObligationsOnlyInAustralia": "#boolean",
+          "countryOfTaxObligations": [
+            {},
+            {}
+          ]
+        },
+        "greenIdVerify": {},
+        "manualCheck": {},
+        "declaration": {}
+      },
+      "productListJson": "\n            "
+    },
+    "journeyData": {},
+    "staffAssistUIData": {},
+    "sfmData": {
+      "systemProfile": {
+        "revisionNumber": 0,
+        "trackingCode": "#present"
+      },
+      "narrativeMeta": {
+        "disableSubmit": "#boolean",
+        "disableSave": "#boolean",
+        "disableBack": "#boolean"
+      }
+      }
+    }
+  }

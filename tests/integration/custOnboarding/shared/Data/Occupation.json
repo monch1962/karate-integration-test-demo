@@ -1,0 +1,2302 @@
+[
+
+    {
+      "OccupationId": "221111-0",
+      "ASCO": "221111",
+      "Description": "Accountants",
+      "Risk Rating": "High",
+      "Risk Score": "3"
+    },
+    {
+      "OccupationId": "0-551100",
+      "Description": "Accounting Clerks nfd",
+      "ANZSCO": "551100",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "614111-551111",
+      "ASCO": "614111",
+      "Description": "Accounts Clerk",
+      "ANZSCO": "551111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "253811-211111",
+      "ASCO": "253811",
+      "Description": "Actor",
+      "ANZSCO": "211111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+       {
+      "OccupationId": "0-224111",
+      "Description": "Actuary",
+      "ANZSCO": "224111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "239413-252211",
+      "ASCO": "239413",
+      "Description": "Acupuncturist",
+      "ANZSCO": "252211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "619113-542112",
+      "ASCO": "619113",
+      "Description": "Admissions Clerk",
+      "ANZSCO": "542112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-131113",
+      "Description": "Advertising Manager",
+      "ANZSCO": "131113",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "222117-225111",
+      "ASCO": "222117",
+      "Description": "Advertising Specialist",
+      "ANZSCO": "225111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212911-233911",
+      "ASCO": "212911",
+      "Description": "Aeronautical Engineer",
+      "ANZSCO": "233911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "254111-231111",
+      "ASCO": "254111",
+      "Description": "Aeroplane Pilot",
+      "ANZSCO": "231111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-234111",
+      "Description": "Agricultural Consultant",
+      "ANZSCO": "234111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212913-233912",
+      "ASCO": "212913",
+      "Description": "Agricultural Engineer",
+      "ANZSCO": "233912",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "211419-234112",
+      "ASCO": "211419",
+      "Description": "Agricultural Scientist",
+      "ANZSCO": "234112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "311217-311111",
+      "ASCO": "311217",
+      "Description": "Agricultural Technician",
+      "ANZSCO": "311111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "254113-231112",
+      "ASCO": "254113",
+      "Description": "Air Traffic Controller",
+      "ANZSCO": "231112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-733112",
+      "Description": "Aircraft Refueller",
+      "ANZSCO": "733112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "349111-411111",
+      "ASCO": "349111",
+      "Description": "Ambulance Officer",
+      "ANZSCO": "411111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-311211",
+      "Description": "Anaesthetic Technician",
+      "ANZSCO": "311211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "231211-253211",
+      "ASCO": "231211",
+      "Description": "Anaesthetist",
+      "ANZSCO": "253211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "223117-261311",
+      "ASCO": "223117",
+      "Description": "Analyst Programmer",
+      "ANZSCO": "261311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "211311-234512",
+      "ASCO": "211311",
+      "Description": "Anatomist or Physiologist",
+      "ANZSCO": "234512",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "131225-121311",
+      "ASCO": "131225",
+      "Description": "Apiarist",
+      "ANZSCO": "121311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "494117-393211",
+      "ASCO": "494117",
+      "Description": "Apparel Cutter",
+      "ANZSCO": "393211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "131411-121111",
+      "ASCO": "131411",
+      "Description": "Aquaculture Farmer",
+      "ANZSCO": "121111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-841111",
+      "Description": "Aquaculture Worker",
+      "ANZSCO": "841111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-362212",
+      "Description": "Arborist",
+      "ANZSCO": "362212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212111-232111",
+      "ASCO": "212111",
+      "Description": "Architect",
+      "ANZSCO": "232111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-312111",
+      "Description": "Architectural Draftsperson",
+      "ANZSCO": "312111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "229915-224211",
+      "ASCO": "229915",
+      "Description": "Archivist",
+      "ANZSCO": "224211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "831113-442212",
+      "ASCO": "831113",
+      "Description": "Armoured Car Escort",
+      "ANZSCO": "442212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "129613-212111",
+      "ASCO": "129613",
+      "Description": "Artistic Director",
+      "ANZSCO": "212111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-211000",
+      "Description": "Arts Professionals nfd",
+      "ANZSCO": "211000",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "599913-611111",
+      "ASCO": "599913",
+      "Description": "Auctioneer",
+      "ANZSCO": "611111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "239911-252711",
+      "ASCO": "239911",
+      "Description": "Audiologist",
+      "ANZSCO": "252711",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "253511-212211",
+      "ASCO": "253511",
+      "Description": "Author",
+      "ANZSCO": "212211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-899412",
+      "Description": "Autoglazier",
+      "ANZSCO": "899412",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-731199",
+      "Description": "Automobile Drivers nec",
+      "ANZSCO": "731199",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-731100",
+      "Description": "Automobile Drivers nfd",
+      "ANZSCO": "731100",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "421211-321111",
+      "ASCO": "421211",
+      "Description": "Automotive Electrician",
+      "ANZSCO": "321111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "711115-721212",
+      "ASCO": "711115",
+      "Description": "Backhoe Operator",
+      "ANZSCO": "721212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "451211-351111",
+      "ASCO": "451211",
+      "Description": "Baker",
+      "ANZSCO": "351111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "921413-831111",
+      "ASCO": "921413",
+      "Description": "Baking Factory Worker",
+      "ANZSCO": "831111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "614311-552111",
+      "ASCO": "614311",
+      "Description": "Bank Worker",
+      "ANZSCO": "552111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "632211-431111",
+      "ASCO": "632211",
+      "Description": "Bar Attendant",
+      "ANZSCO": "431111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-431911",
+      "Description": "Bar Useful or Busser",
+      "ANZSCO": "431911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-431112",
+      "Description": "Barista",
+      "ANZSCO": "431112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "252111-271111",
+      "ASCO": "252111",
+      "Description": "Barrister",
+      "ANZSCO": "271111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "639511-0",
+      "ASCO": "639511",
+      "Description": "Beauty Therapists",
+      "Risk Rating": "High",
+      "Risk Score": "3"
+    },
+    {
+      "OccupationId": "0-141911",
+      "Description": "Bed and Breakfast Operator",
+      "ANZSCO": "141911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-841511",
+      "Description": "Beef Cattle Farm Worker",
+      "ANZSCO": "841511",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "131213-121312",
+      "ASCO": "131213",
+      "Description": "Beef Cattle Farmer",
+      "ANZSCO": "121312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "811579-0",
+      "ASCO": "811579",
+      "Description": "Betting Clerks n.e.c.",
+      "Risk Rating": "High",
+      "Risk Score": "3"
+    },
+    {
+      "OccupationId": "0-899911",
+      "Description": "Bicycle Mechanic",
+      "ANZSCO": "899911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "211317-234513",
+      "ASCO": "211317",
+      "Description": "Biochemist",
+      "ANZSCO": "234513",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212915-233913",
+      "ASCO": "212915",
+      "Description": "Biomedical Engineer",
+      "ANZSCO": "233913",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-234514",
+      "Description": "Biotechnologist",
+      "ANZSCO": "234514",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "412311-322111",
+      "ASCO": "412311",
+      "Description": "Blacksmith",
+      "ANZSCO": "322111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "498113-399111",
+      "ASCO": "498113",
+      "Description": "Boat Builder and Repairer",
+      "ANZSCO": "399111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-451814",
+      "Description": "Body Artist",
+      "ANZSCO": "451814",
+      "Risk Rating": "High",
+      "Risk Score": "3",
+      "Mandatory High Risk": "Mandatory High Risk"
+    },
+    {
+      "OccupationId": "0-712911",
+      "Description": "Boiler or Engine Operator",
+      "ANZSCO": "712911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "253513-212212",
+      "ASCO": "253513",
+      "Description": "Book or Script Editor",
+      "ANZSCO": "212212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "591111-551211",
+      "ASCO": "591111",
+      "Description": "Bookkeeper",
+      "ANZSCO": "551211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "321221-0",
+      "ASCO": "321221",
+      "Description": "Bookmakers",
+      "Risk Rating": "High",
+      "Risk Score": "3"
+    },
+    {
+      "OccupationId": "811515-0",
+      "ASCO": "811515",
+      "Description": "Bookmaker's Clerks",
+      "Risk Rating": "High",
+      "Risk Score": "3"
+    },
+    {
+      "OccupationId": "211313-234515",
+      "ASCO": "211313",
+      "Description": "Botanist",
+      "ANZSCO": "234515",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-831112",
+      "Description": "Brewery Worker",
+      "ANZSCO": "831112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "441411-331111",
+      "ASCO": "441411",
+      "Description": "Bricklayer",
+      "ANZSCO": "331111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-331100",
+      "Description": "Bricklayers and Stonemasons nfd",
+      "ANZSCO": "331100",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "499217-399511",
+      "ASCO": "499217",
+      "Description": "Broadcast Transmitter Operator",
+      "ANZSCO": "399511",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "991611-821111",
+      "ASCO": "991611",
+      "Description": "Builder's Labourer",
+      "ANZSCO": "821111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "312111-312112",
+      "ASCO": "312111",
+      "Description": "Building Associate",
+      "ANZSCO": "312112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "312117-312113",
+      "ASCO": "312117",
+      "Description": "Building Inspector",
+      "ANZSCO": "312113",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "711113-721213",
+      "ASCO": "711113",
+      "Description": "Bulldozer Operator",
+      "ANZSCO": "721213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-452211",
+      "Description": "Bungy Jump Master",
+      "ANZSCO": "452211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "731211-731211",
+      "ASCO": "731211",
+      "Description": "Bus Driver",
+      "ANZSCO": "731211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-612111",
+      "Description": "Business Broker",
+      "ANZSCO": "612111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "431513-342311",
+      "ASCO": "431513",
+      "Description": "Business Machine Mechanic",
+      "ANZSCO": "342311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "451111-351211",
+      "ASCO": "451111",
+      "Description": "Butcher or Smallgoods Maker",
+      "ANZSCO": "351211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "492211-394111",
+      "ASCO": "492211",
+      "Description": "Cabinetmaker",
+      "ANZSCO": "394111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-431211",
+      "Description": "Cafe Worker",
+      "ANZSCO": "431211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "494413-393111",
+      "ASCO": "494413",
+      "Description": "Canvas Goods Fabricator",
+      "ANZSCO": "393111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-811111",
+      "Description": "Car Detailer",
+      "ANZSCO": "811111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "831917-899912",
+      "ASCO": "831917",
+      "Description": "Car Park Attendant",
+      "ANZSCO": "899912",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-311212",
+      "Description": "Cardiac Technician",
+      "ANZSCO": "311212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-253312",
+      "Description": "Cardiologist",
+      "ANZSCO": "253312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-253512",
+      "Description": "Cardiothoracic Surgeon",
+      "ANZSCO": "253512",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "251317-272111",
+      "ASCO": "251317",
+      "Description": "Careers Counsellor",
+      "ANZSCO": "272111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-420000",
+      "Description": "Carers and Aides nfd",
+      "ANZSCO": "420000",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "831411-899111",
+      "ASCO": "831411",
+      "Description": "Caretaker",
+      "ANZSCO": "899111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "441113-331212",
+      "ASCO": "441113",
+      "Description": "Carpenter",
+      "ANZSCO": "331212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "441111-331211",
+      "ASCO": "441111",
+      "Description": "Carpenter and Joiner",
+      "ANZSCO": "331211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "911115-811611",
+      "ASCO": "911115",
+      "Description": "Carpet Cleaner",
+      "ANZSCO": "811611",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212311-232213",
+      "ASCO": "212311",
+      "Description": "Cartographer",
+      "ANZSCO": "232213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "829313-621711",
+      "ASCO": "829313",
+      "Description": "Cash Van Salesperson",
+      "ANZSCO": "621711",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-731212",
+      "Description": "Charter and Tour Bus Driver",
+      "ANZSCO": "731212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-731111",
+      "Description": "Chauffeur",
+      "ANZSCO": "731111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "829111-631111",
+      "ASCO": "829111",
+      "Description": "Checkout Operator",
+      "ANZSCO": "631111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "332211-351311",
+      "ASCO": "332211",
+      "Description": "Chef",
+      "ANZSCO": "351311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212917-233111",
+      "ASCO": "212917",
+      "Description": "Chemical Engineer",
+      "ANZSCO": "233111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "211111-234211",
+      "ASCO": "211111",
+      "Description": "Chemist",
+      "ANZSCO": "234211",
+      "Risk Rating": "Medium",
+      "Risk Score": "2"
+    },
+    {
+      "OccupationId": "0-311411",
+      "Description": "Chemistry Technician",
+      "ANZSCO": "311411",
+      "Risk Rating": "Medium",
+      "Risk Score": "2"
+    },
+
+    {
+      "OccupationId": "0-135111",
+      "Description": "Chief Information Officer",
+      "ANZSCO": "135111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-134111",
+      "Description": "Child Care Centre Manager",
+      "ANZSCO": "134111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "631211-421111",
+      "ASCO": "631211",
+      "Description": "Child Care Worker",
+      "ANZSCO": "421111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-421100",
+      "Description": "Child Carers nfd",
+      "ANZSCO": "421100",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "238711-252111",
+      "ASCO": "238711",
+      "Description": "Chiropractor",
+      "ANZSCO": "252111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-832111",
+      "Description": "Chocolate Packer",
+      "ANZSCO": "832111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-149912",
+      "Description": "Cinema or Theatre Manager",
+      "ANZSCO": "149912",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-451811",
+      "Description": "Civil Celebrant",
+      "ANZSCO": "451811",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212411-233211",
+      "ASCO": "212411",
+      "Description": "Civil Engineer",
+      "ANZSCO": "233211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "312213-312212",
+      "ASCO": "312213",
+      "Description": "Civil Engineering Technician",
+      "ANZSCO": "312212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "811913-561911",
+      "ASCO": "811913",
+      "Description": "Classified Advertising Clerk",
+      "ANZSCO": "561911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "911179-811699",
+      "ASCO": "911179",
+      "Description": "Cleaners nec",
+      "ANZSCO": "811699",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "599111-599211",
+      "ASCO": "599111",
+      "Description": "Clerk of Court",
+      "ANZSCO": "599211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-599915",
+      "Description": "Clinical Coder",
+      "ANZSCO": "599915",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-253313",
+      "Description": "Clinical Haematologist",
+      "ANZSCO": "253313",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "251411-272311",
+      "ASCO": "251411",
+      "Description": "Clinical Psychologist",
+      "ANZSCO": "272311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-393212",
+      "Description": "Clothing Patternmaker",
+      "ANZSCO": "393212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "494179-393299",
+      "ASCO": "494179",
+      "Description": "Clothing Trades Workers nec",
+      "ANZSCO": "393299",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-393200",
+      "Description": "Clothing Trades Workers nfd",
+      "ANZSCO": "393200",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "911111-811211",
+      "ASCO": "911111",
+      "Description": "Commercial Cleaner",
+      "ANZSCO": "811211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-811411",
+      "Description": "Commercial Housekeeper",
+      "ANZSCO": "811411",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "129413-139112",
+      "ASCO": "129413",
+      "Description": "Commissioned Fire Officer",
+      "ANZSCO": "139112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-139100",
+      "Description": "Commissioned Officers (Management) nfd",
+      "ANZSCO": "139100",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "129415-139113",
+      "ASCO": "129415",
+      "Description": "Commissioned Police Officer",
+      "ANZSCO": "139113",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-342312",
+      "Description": "Communications Operator",
+      "ANZSCO": "342312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-272611",
+      "Description": "Community Arts Worker",
+      "ANZSCO": "272611",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "251213-411711",
+      "ASCO": "251213",
+      "Description": "Community Worker",
+      "ANZSCO": "411711",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "121211-221211",
+      "ASCO": "121211",
+      "Description": "Company Secretary",
+      "ANZSCO": "221211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "253717-211211",
+      "ASCO": "253717",
+      "Description": "Composer",
+      "ANZSCO": "211211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "712915-712915",
+      "ASCO": "712915",
+      "Description": "Concrete Pump Operator",
+      "ANZSCO": "712915",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "991711-821211",
+      "ASCO": "991711",
+      "Description": "Concreter",
+      "ANZSCO": "821211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "451915-831113",
+      "ASCO": "451915",
+      "Description": "Confectionery Maker",
+      "ANZSCO": "831113",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-149311",
+      "Description": "Conference and Event Organiser",
+      "ANZSCO": "149311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-234311",
+      "Description": "Conservation Officer",
+      "ANZSCO": "234311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "254911-234911",
+      "ASCO": "254911",
+      "Description": "Conservator",
+      "ANZSCO": "234911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-312114",
+      "Description": "Construction Estimator",
+      "ANZSCO": "312114",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-133100",
+      "Description": "Construction Managers nfd",
+      "ANZSCO": "133100",
+      "Risk Rating": "High",
+      "Risk Score": "3"
+    },
+    {
+      "OccupationId": "791317-821711",
+      "ASCO": "791317",
+      "Description": "Construction Rigger",
+      "ANZSCO": "821711",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-330000",
+      "Description": "Construction Trades Workers nfd",
+      "ANZSCO": "330000",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-832112",
+      "Description": "Container Filler",
+      "ANZSCO": "832112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-511111",
+      "Description": "Contract Administrator",
+      "ANZSCO": "511111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-599111",
+      "Description": "Conveyancer",
+      "ANZSCO": "599111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "451311-351411",
+      "ASCO": "451311",
+      "Description": "Cook",
+      "ANZSCO": "351411",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "253419-212411",
+      "ASCO": "253419",
+      "Description": "Copywriter",
+      "ANZSCO": "212411",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-111211",
+      "Description": "Corporate General Manager",
+      "ANZSCO": "111211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-132111",
+      "Description": "Corporate Services Manager",
+      "ANZSCO": "132111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "221311-221212",
+      "ASCO": "221311",
+      "Description": "Corporate Treasurer",
+      "ANZSCO": "221212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "614115-551112",
+      "ASCO": "614115",
+      "Description": "Cost Clerk",
+      "ANZSCO": "551112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-121211",
+      "Description": "Cotton Grower",
+      "ANZSCO": "121211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "251379-272199",
+      "ASCO": "251379",
+      "Description": "Counsellors nec",
+      "ANZSCO": "272199",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-272100",
+      "Description": "Counsellors nfd",
+      "ANZSCO": "272100",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "811411-561211",
+      "ASCO": "811411",
+      "Description": "Courier",
+      "ANZSCO": "561211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-599200",
+      "Description": "Court and Legal Clerks nfd",
+      "ANZSCO": "599200",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-599212",
+      "Description": "Court Bailiff or Sheriff",
+      "ANZSCO": "599212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "619917-599213",
+      "ASCO": "619917",
+      "Description": "Court Orderly",
+      "ANZSCO": "599213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "991913-821911",
+      "ASCO": "991913",
+      "Description": "Crane Chaser",
+      "ANZSCO": "821911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "712211-712111",
+      "ASCO": "712211",
+      "Description": "Crane, Hoist or Lift Operator",
+      "ANZSCO": "712111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "591211-552211",
+      "ASCO": "591211",
+      "Description": "Credit or Loans Officer",
+      "ANZSCO": "552211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-841200",
+      "Description": "Crop Farm Workers nfd",
+      "ANZSCO": "841200",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "131379-121299",
+      "ASCO": "131379",
+      "Description": "Crop Farmers nec",
+      "ANZSCO": "121299",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-121200",
+      "Description": "Crop Farmers nfd",
+      "ANZSCO": "121200",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "831919-899913",
+      "ASCO": "831919",
+      "Description": "Crossing Supervisor",
+      "ANZSCO": "899913",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-442213",
+      "Description": "Crowd Controller",
+      "ANZSCO": "442213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "339211-149212",
+      "ASCO": "339211",
+      "Description": "Customer Service Manager",
+      "ANZSCO": "149212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "619411-599511",
+      "ASCO": "619411",
+      "Description": "Customs Officer",
+      "ANZSCO": "599511",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "921415-841512",
+      "ASCO": "921415",
+      "Description": "Dairy Cattle Farm Worker",
+      "ANZSCO": "841512",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "131215-121313",
+      "ASCO": "131215",
+      "Description": "Dairy Cattle Farmer",
+      "ANZSCO": "121313",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-831114",
+      "Description": "Dairy Products Maker",
+      "ANZSCO": "831114",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "249115-249212",
+      "ASCO": "249115",
+      "Description": "Dance Teacher (Private Tuition)",
+      "ANZSCO": "249212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "253813-211112",
+      "ASCO": "253813",
+      "Description": "Dancer or Choreographer",
+      "ANZSCO": "211112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "612113-532111",
+      "ASCO": "612113",
+      "Description": "Data Entry Operator",
+      "ANZSCO": "532111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-262111",
+      "Description": "Database Administrator",
+      "ANZSCO": "262111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "619913-599311",
+      "ASCO": "619913",
+      "Description": "Debt Collector",
+      "ANZSCO": "599311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-899200",
+      "Description": "Deck and Fishing Hands nfd",
+      "ANZSCO": "899200",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-899211",
+      "Description": "Deck Hand",
+      "ANZSCO": "899211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-121314",
+      "Description": "Deer Farmer",
+      "ANZSCO": "121314",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-111212",
+      "Description": "Defence Force Senior Officer",
+      "ANZSCO": "111212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "731411-732111",
+      "ASCO": "731411",
+      "Description": "Delivery Driver",
+      "ANZSCO": "732111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "639111-423211",
+      "ASCO": "639111",
+      "Description": "Dental Assistant",
+      "ANZSCO": "423211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "349213-411211",
+      "ASCO": "349213",
+      "Description": "Dental Hygienist",
+      "ANZSCO": "411211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "238111-252300",
+      "ASCO": "238111",
+      "Description": "Dental Practitioners nfd",
+      "ANZSCO": "252300",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-411212",
+      "Description": "Dental Prosthetist",
+      "ANZSCO": "411212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "238113-252311",
+      "ASCO": "238113",
+      "Description": "Dental Specialist",
+      "ANZSCO": "252311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "349215-411213",
+      "ASCO": "349215",
+      "Description": "Dental Technician",
+      "ANZSCO": "411213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "349211-411214",
+      "ASCO": "349211",
+      "Description": "Dental Therapist",
+      "ANZSCO": "411214",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-252312",
+      "Description": "Dentist",
+      "ANZSCO": "252312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "231213-253911",
+      "ASCO": "231213",
+      "Description": "Dermatologist",
+      "ANZSCO": "253911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-591211",
+      "Description": "Despatching and Receiving Clerk",
+      "ANZSCO": "591211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-441311",
+      "Description": "Detective",
+      "ANZSCO": "441311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-261312",
+      "Description": "Developer Programmer",
+      "ANZSCO": "261312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-321212",
+      "Description": "Diesel Motor Mechanic",
+      "ANZSCO": "321212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "239311-251111",
+      "ASCO": "239311",
+      "Description": "Dietitian",
+      "ANZSCO": "251111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "253615-212313",
+      "ASCO": "253615",
+      "Description": "Director of Photography",
+      "ANZSCO": "212313",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "342117-411712",
+      "ASCO": "342117",
+      "Description": "Disabilities Services Officer",
+      "ANZSCO": "411712",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "499913-399911",
+      "ASCO": "499913",
+      "Description": "Diver",
+      "ANZSCO": "399911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-411311",
+      "Description": "Diversional Therapist",
+      "ANZSCO": "411311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-361111",
+      "Description": "Dog Handler or Trainer",
+      "ANZSCO": "361111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "911113-811311",
+      "ASCO": "911113",
+      "Description": "Domestic Cleaner",
+      "ANZSCO": "811311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "831311-811412",
+      "ASCO": "831311",
+      "Description": "Domestic Housekeeper",
+      "ANZSCO": "811412",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "443115-334113",
+      "ASCO": "443115",
+      "Description": "Drainer",
+      "ANZSCO": "334113",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "494115-393213",
+      "ASCO": "494115",
+      "Description": "Dressmaker or Tailor",
+      "ANZSCO": "393213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "991113-821912",
+      "ASCO": "991113",
+      "Description": "Driller's Assistant",
+      "ANZSCO": "821912",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "639913-451211",
+      "ASCO": "639913",
+      "Description": "Driving Instructor",
+      "ANZSCO": "451211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "251313-272112",
+      "ASCO": "251313",
+      "Description": "Drug and Alcohol Counsellor",
+      "ANZSCO": "272112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-811512",
+      "Description": "Drycleaner",
+      "ANZSCO": "811512",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "311213-311412",
+      "ASCO": "311213",
+      "Description": "Earth Science Technician",
+      "ANZSCO": "311412",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "991211-821113",
+      "ASCO": "991211",
+      "Description": "Earthmoving Labourer",
+      "ANZSCO": "821113",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "252211-224311",
+      "ASCO": "252211",
+      "Description": "Economist",
+      "ANZSCO": "224311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-249111",
+      "Description": "Education Adviser",
+      "ANZSCO": "249111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-422100",
+      "Description": "Education Aides nfd",
+      "ANZSCO": "422100",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "129379-134499",
+      "ASCO": "129379",
+      "Description": "Education Managers nec",
+      "ANZSCO": "134499",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-240000",
+      "Description": "Education Professionals nfd",
+      "ANZSCO": "240000",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-249112",
+      "Description": "Education Reviewer",
+      "ANZSCO": "249112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "251413-272312",
+      "ASCO": "251413",
+      "Description": "Educational Psychologist",
+      "ANZSCO": "272312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "254913-224911",
+      "ASCO": "254913",
+      "Description": "Electorate Officer",
+      "ANZSCO": "224911",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212511-233311",
+      "ASCO": "212511",
+      "Description": "Electrical Engineer",
+      "ANZSCO": "233311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-312311",
+      "Description": "Electrical Engineering Draftsperson",
+      "ANZSCO": "312311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "312313-312312",
+      "ASCO": "312313",
+      "Description": "Electrical Engineering Technician",
+      "ANZSCO": "312312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-342211",
+      "Description": "Electrical Linesworker",
+      "ANZSCO": "342211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-341111",
+      "Description": "Electrician (General)",
+      "ANZSCO": "341111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+
+    {
+      "OccupationId": "412613-322112",
+      "ASCO": "412613",
+      "Description": "Electroplater",
+      "ANZSCO": "322112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-253315",
+      "Description": "Endocrinologist",
+      "ANZSCO": "253315",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "122111-133211",
+      "ASCO": "122111",
+      "Description": "Engineering Manager",
+      "ANZSCO": "133211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-323411",
+      "Description": "Engineering Patternmaker",
+      "ANZSCO": "323411",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "712311-712311",
+      "ASCO": "712311",
+      "Description": "Engineering Production Worker",
+      "ANZSCO": "712311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-233999",
+      "Description": "Engineering Professionals nec",
+      "ANZSCO": "233999",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-233000",
+      "Description": "Engineering Professionals nfd",
+      "ANZSCO": "233000",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "212879-233914",
+      "ASCO": "212879",
+      "Description": "Engineering Technologist",
+      "ANZSCO": "233914",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "411521-323311",
+      "ASCO": "411521",
+      "Description": "Engraver",
+      "ANZSCO": "323311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-411411",
+      "Description": "Enrolled Nurse",
+      "ANZSCO": "411411",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-234312",
+      "Description": "Environmental Consultant",
+      "ANZSCO": "234312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-233915",
+      "Description": "Environmental Engineer",
+      "ANZSCO": "233915",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "254313-251311",
+      "ASCO": "254313",
+      "Description": "Environmental Health Officer",
+      "ANZSCO": "251311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-139912",
+      "Description": "Environmental Manager",
+      "ANZSCO": "139912",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-234399",
+      "Description": "Environmental Scientists nec",
+      "ANZSCO": "234399",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-234300",
+      "Description": "Environmental Scientists nfd",
+      "ANZSCO": "234300",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-149915",
+      "Description": "Equipment Hire Manager",
+      "ANZSCO": "149915",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "711121-721214",
+      "ASCO": "711121",
+      "Description": "Excavator Operator",
+      "ANZSCO": "721214",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "221211-221213",
+      "ASCO": "221211",
+      "Description": "External Auditor",
+      "ANZSCO": "221213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-149913",
+      "Description": "Facilities Manager",
+      "ANZSCO": "149913",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "129313-134411",
+      "ASCO": "129313",
+      "Description": "Faculty Head",
+      "ANZSCO": "134411",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "631213-421112",
+      "ASCO": "631213",
+      "Description": "Family Day Care Worker",
+      "ANZSCO": "421112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "342119-411713",
+      "ASCO": "342119",
+      "Description": "Family Support Worker",
+      "ANZSCO": "411713",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "412313-322113",
+      "ASCO": "412313",
+      "Description": "Farrier",
+      "ANZSCO": "322113",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "253311-232311",
+      "ASCO": "253311",
+      "Description": "Fashion Designer",
+      "ANZSCO": "232311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "993211-851111",
+      "ASCO": "993211",
+      "Description": "Fast Food Cook",
+      "ANZSCO": "851111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "991915-821311",
+      "ASCO": "991915",
+      "Description": "Fencer",
+      "ANZSCO": "821311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "441211-333211",
+      "ASCO": "441211",
+      "Description": "Fibrous Plasterer",
+      "ANZSCO": "333211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-561311",
+      "Description": "Filing or Registry Clerk",
+      "ANZSCO": "561311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "253617-212314",
+      "ASCO": "253617",
+      "Description": "Film and Video Editor",
+      "ANZSCO": "212314",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-452212",
+      "Description": "Fishing Guide",
+      "ANZSCO": "452212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "799413-899212",
+      "ASCO": "799413",
+      "Description": "Fishing Hand",
+      "ANZSCO": "899212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "339111-149112",
+      "ASCO": "339111",
+      "Description": "Fitness Centre Manager",
+      "ANZSCO": "149112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "639611-452111",
+      "ASCO": "639611",
+      "Description": "Fitness Instructor",
+      "ANZSCO": "452111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "411211-323211",
+      "ASCO": "411211",
+      "Description": "Fitter (General)",
+      "ANZSCO": "323211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-323212",
+      "Description": "Fitter and Turner",
+      "ANZSCO": "323212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-323213",
+      "Description": "Fitter-Welder",
+      "ANZSCO": "323213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "339921-149411",
+      "ASCO": "339921",
+      "Description": "Fleet Manager",
+      "ANZSCO": "149411",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "599613-451711",
+      "ASCO": "599613",
+      "Description": "Flight Attendant",
+      "ANZSCO": "451711",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "442311-332111",
+      "ASCO": "442311",
+      "Description": "Floor Finisher",
+      "ANZSCO": "332111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "498411-362111",
+      "ASCO": "498411",
+      "Description": "Florist",
+      "ANZSCO": "362111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "131321-121212",
+      "ASCO": "131321",
+      "Description": "Flower Grower",
+      "ANZSCO": "121212",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "254119-231113",
+      "ASCO": "254119",
+      "Description": "Flying Instructor",
+      "ANZSCO": "231113",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "992213-841411",
+      "ASCO": "992213",
+      "Description": "Garden Labourer",
+      "ANZSCO": "841411",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-362211",
+      "Description": "Gardener (General)",
+      "ANZSCO": "362211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-362200",
+      "Description": "Gardeners nfd",
+      "ANZSCO": "362200",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "443113-334114",
+      "ASCO": "443113",
+      "Description": "Gasfitter",
+      "ANZSCO": "334114",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-253316",
+      "Description": "Gastroenterologist",
+      "ANZSCO": "253316",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "599311-611211",
+      "ASCO": "599311",
+      "Description": "Insurance Agent",
+      "ANZSCO": "611211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-552312",
+      "Description": "Insurance Consultant",
+      "ANZSCO": "552312",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "599413-599611",
+      "ASCO": "599413",
+      "Description": "Insurance Investigator",
+      "ANZSCO": "599611",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+   {
+      "OccupationId": "993111-851311",
+      "ASCO": "993111",
+      "Description": "Kitchenhand",
+      "ANZSCO": "851311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "721215-711713",
+      "ASCO": "721215",
+      "Description": "Knitting Machine Operator",
+      "ANZSCO": "711713",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "129913-139913",
+      "ASCO": "129913",
+      "Description": "Laboratory Manager",
+      "ANZSCO": "139913",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-899999",
+      "Description": "Labourers nec",
+      "ANZSCO": "899999",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-800000",
+      "Description": "Labourers nfd",
+      "ANZSCO": "800000",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "991911-821913",
+      "ASCO": "991911",
+      "Description": "Lagger",
+      "ANZSCO": "821913",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "229513-224511",
+      "ASCO": "229513",
+      "Description": "Land Economist",
+      "ANZSCO": "224511",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "412211-322311",
+      "ASCO": "412211",
+      "Description": "Metal Fabricator",
+      "ANZSCO": "322311",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-323299",
+      "Description": "Metal Fitters and Machinists nec",
+      "ANZSCO": "323299",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-411412",
+      "Description": "Mothercraft Nurse",
+      "ANZSCO": "411412",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "0-731213",
+      "Description": "Passenger Coach Driver",
+      "ANZSCO": "731213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "451213-351112",
+      "ASCO": "451213",
+      "Description": "Pastrycook",
+      "ANZSCO": "351112",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "993311-851211",
+      "ASCO": "993311",
+      "Description": "Pastrycook's Assistant",
+      "ANZSCO": "851211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "254915-224914",
+      "ASCO": "254915",
+      "Description": "Patents Examiner",
+      "ANZSCO": "224914",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "231223-253915",
+      "ASCO": "231223",
+      "Description": "Pathologist",
+      "ANZSCO": "253915",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-311216",
+      "Description": "Pathology Collector",
+      "ANZSCO": "311216",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "241211-241213",
+      "ASCO": "241211",
+      "Description": "Primary School Teacher",
+      "ANZSCO": "241213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "0-392111",
+      "Description": "Print Finisher",
+      "ANZSCO": "392111",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "399611-639211",
+      "ASCO": "399611",
+      "Description": "Retail Buyer",
+      "ANZSCO": "639211",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "253913-212114",
+      "ASCO": "253913",
+      "Description": "Television Presenter",
+      "ANZSCO": "212114",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "399321-452316",
+      "ASCO": "399321",
+      "Description": "Tennis Coach",
+      "ANZSCO": "452316",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+
+    {
+      "OccupationId": "492111-394213",
+      "ASCO": "492111",
+      "Description": "Wood Machinist",
+      "ANZSCO": "394213",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    },
+    {
+      "OccupationId": "910000-0",
+      "ASCO": "910000",
+      "Description": "Student",
+      "Risk Rating": "High",
+      "Risk Score": "3"
+    },
+    {
+      "OccupationId": "0999U-0",
+      "ASCO": "0999U",
+      "Description": "Unemployed",
+      "Risk Rating": "Low",
+      "Risk Score": "1"
+    }
+  ]

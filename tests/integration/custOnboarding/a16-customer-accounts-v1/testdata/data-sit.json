@@ -1,0 +1,15 @@
+{
+   "getaccountDetails" :
+   {
+    "customerId": "122006",
+    "username": 61440126268,
+    "accessCode": 689738
+   },
+   "interimStatement" :
+   {
+     "customerId": "122007",
+     "username": 61440713632,
+     "accessCode": 823416
+   }
+
+}

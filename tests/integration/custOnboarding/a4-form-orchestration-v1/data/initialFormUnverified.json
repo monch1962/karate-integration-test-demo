@@ -1,0 +1,78 @@
+{
+  "instance": "f9688e6872998f49ea31e7a1cd4271e5",
+  "formBody": {
+    "application": {
+      "jointApplicant": {},
+      "selectedProduct": {
+        "tcLink": "https:\/\/TBC",
+        "tcVersion": "1.1.0",
+        "products": [{
+          "baseInterestRate": "Optional(0.0)",
+          "bonusInterestRate": "Optional(0.0)",
+          "productIcon": "https:\/\/virginmoney.com.au\/content\/dam\/virginmoney\/Mobile-App\/DeNovo\/Transaction.png",
+          "productId": "VMA.TRANSAC.ACCOUNT",
+          "productTitle": "Red Spender account",
+          "learnMore": "",
+          "description": "Keep that cash savely tucked away and watch it grow."
+        }],
+        "title": "Just spend",
+        "virtualProductId": "VMA.TRANSAC.ACCOUNT",
+        "learnMore": "https:\/\/virginmoney.com.au\/credit-card\/compare-our-credit-cards",
+        "virtualProductName": "Transaction Account",
+        "description": ""
+      },
+      "jointOnboarding": {
+        "isInvitationAccepted": false,
+        "primaryApplicantDateofBirth": {}
+      },
+      "hasJointApplicant": false,
+      "referrerCode": {
+        "hasReferrerCode": false
+      },
+      "applicant": {
+        "residentialAddress": {
+          "address": {},
+          "isManualInput": false
+        },
+        "manualCheck": {},
+        "dob": {},
+        "knownByOtherName": false,
+        "citizenshipResidency": {
+          "countryOfTaxObligations": [{}, {}]
+        },
+        "applicantType": "Primary",
+        "greenIdVerify": {},
+        "postalAddress": {
+          "address": {},
+          "isManualInput": false,
+          "isSameAsResidential": false
+        },
+        "previousAddress": {
+          "address": {},
+          "isManualInput": false
+        },
+        "declaration": {},
+        "aliasName": {}
+      },
+      "offerCode": {
+        "hasOfferCode": false
+      },
+      "productListJson": "\n\t\t\t"
+    },
+    "journeyData": {
+      "currentPageAction": "cifLookup",
+      "currentPage": "products"
+    },
+    "sfmData": {
+      "narrativeMeta": {
+        "disableSubmit": false,
+        "disableBack": false,
+        "disableSave": false
+      },
+      "systemProfile": {
+        "trackingCode": "9LFTMC9",
+        "revisionNumber": 0
+      }
+    }
+  }
+}

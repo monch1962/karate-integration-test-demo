@@ -1,0 +1,125 @@
+{
+  "instance": "123",
+  "formBody": {
+    "application": {
+      "hasJointApplicant": false,
+      "referrerCode": {
+        "hasReferrerCode": false
+      },
+      "offerCode": {
+        "hasOfferCode": false
+      },
+      "jointApplicant": {
+
+      },
+      "jointOnboarding": {
+        "isInvitationAccepted": false,
+        "primaryApplicantDateofBirth": {}
+      },
+      "selectedProduct": {
+        "virtualProductId": "BUNDLE",
+        "virtualProductName": "Bundle Product",
+        "title": "Spend & also save",
+        "description": "Cover all your banking needs in this one package & get rewarded with every purchase.",
+        "learnMore": "https://virginmoney.com.au/credit-card/compare-our-credit-cards",
+        "tcLink": "https://TBC",
+        "tcVersion": "1.1.0",
+        "products": [
+          {
+            "productId": "VMA.TRANSAC.ACCOUNT",
+            "description": "Keep day-to-day transactions easy.",
+            "productTitle": "Red Spender account",
+            "baseInterestRate": "0.0",
+            "bonusInterestRate": "0.0",
+            "productIcon": "https://virginmoney.com.au/content/dam/virginmoney/Mobile-App/DeNovo/Transaction.png"
+          },
+          {
+            "productId": "VMA.BUNDLE.SAVER",
+            "description": "Manage your money with flexibility.",
+            "productTitle": "Red Saver account",
+            "baseInterestRate": "0.5",
+            "bonusInterestRate": "1.8",
+            "productIcon": "https://virginmoney.com.au/content/dam/virginmoney/Mobile-App/DeNovo/Saver_1.png"
+          }
+        ]
+      },
+      "applicant": {
+        "knownByOtherName": false,
+        "applicantType": "Primary",
+        "mobileNumber": "0412345444",
+        "emailAddress": "danlee187@gmail.com",
+        "gender": "M",
+        "firstName": "Dan",
+        "middleName": "TWOPPPP",
+        "lastName": "Lee",
+        "aliasName": {},
+        "occupationId": "Consultant",
+        "dob": {
+          "day": "01",
+          "month": "01",
+          "year": "1987",
+          "dateOfBirth": "1987-01-01"
+        },
+        "residentialAddress": {
+          "isManualInput": false,
+          "fullAddress": "700 CHAPEL ST SOUTH YARRA 3141 VIC Australia",
+          "address": {
+            "subdwelling": "U 309",
+            "streetNumber": "700",
+            "streetName": "CHAPEL",
+            "streetType": "ST",
+            "suburb": "SOUTH YARRA",
+            "state": "VIC",
+            "postCode": "3141",
+            "country": "AU"
+          }
+        },
+        "previousAddress": {
+          "isManualInput": false,
+          "address": {}
+        },
+        "postalAddress": {
+          "isSameAsResidential": true,
+          "isManualInput": false,
+          "fullAddress": "700 CHAPEL ST SOUTH YARRA 3141 VIC Australia",
+          "address": {
+            "subdwelling": "U 309",
+            "streetNumber": "700",
+            "streetName": "CHAPEL",
+            "streetType": "ST",
+            "suburb": "SOUTH YARRA",
+            "state": "VIC",
+            "postCode": "3141",
+            "country": "AU"
+          }
+        },
+        "citizenshipResidency": {
+          "hasTaxObligationsOnlyInAustralia": false,
+          "countryOfTaxObligations": []
+        },
+        "greenIdVerify": {
+          "regodvsState": "VIC"
+        },
+        "manualCheck": {},
+        "declaration": {}
+      }
+    },
+    "journeyData": {
+      "currentPage": "emailAddress",
+      "currentPageAction": "mobEmailDupCheck"
+    },
+    "staffAssistUIData": {},
+    "sfmData": {
+      "systemProfile": {
+        "revisionNumber": 0,
+        "trackingCode": "123"
+      },
+      "narrativeMeta": {
+        "disableSubmit": false,
+        "disableSave": false,
+        "disableBack": false
+      }
+    }
+  }
+
+}
