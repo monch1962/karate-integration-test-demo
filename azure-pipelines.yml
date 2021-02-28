@@ -63,7 +63,7 @@ steps:
     #docker pull gcr.io/work-test-242205/karate-docker
     mkdir -p results
     ls -l $(pwd)/tests/integration/custOnboarding/a15-customer-profile-v1
-    docker run -v "$(pwd)/tests/integration/custOnboarding/a15-customer-profile-v1:/features" -v "$(pwd)/results:/results" -v "$(pwd)/karate-config:/config" -e HTTP_PROXY=http://localhost:18500 -e CLASSPATH=tests/integration/custOnboarding/shared gcr.io/work-test-242205/karate-docker 
+    docker run -v "$(pwd)/tests/integration/custOnboarding/a15-customer-profile-v1:/features" -v "$(pwd)/results:/results" -v "$(pwd)/karate-config:/config" -e HTTP_PROXY=http://localhost:18500 -e CLASSPATH=tests/integration/custOnboarding gcr.io/work-test-242205/karate-docker 
 
     # Now dump the journals of both stubs (stub2 should be the interesting one...)
     echo "Journal from stub1"
