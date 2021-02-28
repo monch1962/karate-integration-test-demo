@@ -8,5 +8,6 @@ function() {
     karate.configure('proxy', config.proxy);
     karate.configure('readTimeout', 10000);
     karate.configure('connectTimeout', 10001);
+    karate.configure('classpath', 'tests/integration/custOnboarding/shared');
     return config;
 }
