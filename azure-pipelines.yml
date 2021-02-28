@@ -17,3 +17,23 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- script: |
+    # Get the hoverfly stub engine
+    wget https://github.com/SpectoLabs/hoverfly/releases/download/v1.3.2/hoverfly_bundle_linux_amd64.zip -O hoverfly.zip
+    unzip hoverfly.zip
+
+    # Start hoverfly running, and read in the stub config
+    ./hoverctl start
+    ./hoverctl import tests/integration/stubs/empty.stub.json
+
+    # Now start the app running, and capture the PID so we can kill it later
+    # Note that we're setting HTTP_PROXY to point to the Hoverfly stub, so that all tests go via Hoverfly
+    #HTTP_PROXY=http://localhost:8500 node helloworld.js &
+    #APP_PID=$!
+
+
+
+    # Stop Hoverfly
+    ./hoverctl stop
+  displayName: 'Run tests against an empty stub'
