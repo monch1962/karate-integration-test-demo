@@ -12,6 +12,9 @@ pool:
 
 steps:
 - script: |
+    apt-get install jq
+  displayName: "Install jq"
+- script: |
     # Get the hoverfly stub engine
     wget https://github.com/SpectoLabs/hoverfly/releases/download/v1.3.2/hoverfly_bundle_linux_amd64.zip -O hoverfly.zip
     unzip hoverfly.zip
@@ -63,11 +66,11 @@ steps:
 
     echo "Journal from stub1"
     curl http://localhost:8888/api/v2/journal > stub1.json
-    cat stub1.json
+    cat stub1.json | jq .
     echo
     echo "Journal from stub2"
     curl http://localhost:18888/api/v2/journal > stub2.json
-    cat stub2.json
+    cat stub2.json | jq .
     echo
 
     docker kill stub1
