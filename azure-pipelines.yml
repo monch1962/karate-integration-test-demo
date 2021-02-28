@@ -11,35 +11,70 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
-
 - script: |
     # Get the hoverfly stub engine
-    wget https://github.com/SpectoLabs/hoverfly/releases/download/v1.3.2/hoverfly_bundle_linux_amd64.zip -O hoverfly.zip
-    unzip hoverfly.zip
+    docker run --name stub --rm -d -p 8888:8888 -p 8500:8500 spectolabs/hoverfly:latest
 
-    # Start hoverfly running in simulate mode, and read in an empty stub config
-    ./hoverctl start --verbose
-    ./hoverctl mode simulate --matching-strategy=strongest --verbose
-    ./hoverctl import tests/integration/stubs/empty.stub.json --verbose
-    ./hoverctl logs
+    # Start hoverfly running in simulate mode, and read in an empty stub config    
+    curl http://localhost:8888/api/v2/simulation --upload-file tests/integration/stubs/empty.stub.json
 
     # Now hit a non-existent API in the stub
-    HTTP_PROXY=http://localhost:8500 curl -H "Content-Type application/json" -X POST -d '{"mode":"simulate"}' http://localhost:8888/api/state
-
-    # Now start the app running, and capture the PID so we can kill it later
-    # Note that we're setting HTTP_PROXY to point to the Hoverfly stub, so that all tests go via Hoverfly
-    #HTTP_PROXY=http://localhost:8500 node helloworld.js &
-    #APP_PID=$!
-
-
+    curl -H "Content-Type application/json" -X POST -d '{"mode":"simulate"}' http://localhost:8888/api/state
 
     # Stop Hoverfly
-    ./hoverctl stop
+    docker kill stub
   displayName: 'Run tests against an empty stub'
+
+- script: |
+    # First Hoverfly instance in webserver mode
+    docker run --name stub1 --rm -d -p 8888:8888 -p 8500:8500 spectolabs/hoverfly:latest -webserver
+    # Import a 'match-anything' stub into this instance
+    curl http://localhost:8888/api/v2/simulation --upload-file tests/integration/stubs/match-anything.stub.json
+    # Check that the match-anything config was loaded
+    echo "This is the config of stub1"
+    curl http://localhost:8888/api/v2/simulation
+    echo
+    curl http://localhost:8888/api/v2/hoverfly
+    echo
+    # Test instance 1
+    echo "Request sent to stub1"
+    curl http://localhost:8500/foo/bar
+    echo
+
+    # Second Hoverfly instance
+    docker run --name stub2 --rm -d -p 18888:8888 -p 18500:8500 spectolabs/hoverfly:latest
+    # Set 2nd Hoverfly instance into capture mode
+    curl http://localhost:18888/api/v2/hoverfly/mode --upload-file tests/integration/stubs/capture-mode.json
+    # Check that capture mode is enabled
+    echo "This is the config of stub2"
+    curl http://localhost:18888/api/v2/hoverfly/mode
+    echo
+    curl http://localhost:18888/api/v2/hoverfly
+    echo
+
+    # Send request to 1st instance, via 2nd instance acting as proxy
+    echo "Sending request to stub1 via stub2"
+    curl --proxy http://localhost:18500 http://localhost:8888/foo/bar
+    curl --proxy http://localhost:18500 http://jsonplaceholder.typicode.com/posts/1
+    echo
+
+
+    # Now run some real tests
+    #docker pull gcr.io/work-test-242205/karate-docker
+    mkdir -p results
+    docker run gcr.io/work-test-242205/karate-docker -v "$(pwd)/integration/custOnboarding/a15-customer-profile-v1:/features" -v "$(pwd)/results:/results -v $(pwd)/karate-config:/config" -e HTTP_PROXY=http://localhost:18500
+
+    # Now dump the journals of both stubs (stub2 should be the interesting one...)
+    echo "Journal from stub1"
+    curl http://localhost:8888/api/v2/journal > stub1.json
+    cat stub1.json | jq .
+    echo
+    echo "Journal from stub2"
+    curl http://localhost:18888/api/v2/journal > stub2.json
+    cat stub2.json | jq .
+    echo
+    docker kill stub1
+    docker kill stub2
+  
+  displayName: 'Run tests against an empty stub'
+  
