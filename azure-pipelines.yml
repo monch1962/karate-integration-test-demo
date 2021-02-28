@@ -64,6 +64,13 @@ steps:
     curl --proxy http://localhost:18500 http://jsonplaceholder.typicode.com/posts/1
     echo
 
+
+    # Now run some real tests
+    #docker pull gcr.io/work-test-242205/karate-docker
+    mkdir -p results
+    docker run gcr.io/work-test-242205/karate-docker -v $(pwd)/integration/custOnboarding/a15-customer-profile-v1:/features -v $(pwd)/results:/results
+
+    # Now dump the journals of both stubs (stub2 should be the interesting one...)
     echo "Journal from stub1"
     curl http://localhost:8888/api/v2/journal > stub1.json
     cat stub1.json | jq .
@@ -72,11 +79,6 @@ steps:
     curl http://localhost:18888/api/v2/journal > stub2.json
     cat stub2.json | jq .
     echo
-
-    # Now run some real tests
-    docker pull gcr.io/work-test-242205/karate-docker
-    docker run gcr.io/work-test-242205/karate-docker -v $(pwd)/integration/custOnboarding/a15-customer-profile-v1:/feature
-
     docker kill stub1
     docker kill stub2
   
