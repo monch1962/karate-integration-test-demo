@@ -12,7 +12,7 @@ pool:
 
 steps:
 - script: |
-    apt-get install jq
+    sudo apt-get -y install jq
   displayName: "Install jq"
 - script: |
     # Get the hoverfly stub engine
